@@ -16,6 +16,7 @@ import com.google.firebase.database.ValueEventListener;
 public class Firebase {
 
     private static final String TAG = "FirebaseTAG";
+
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference("comments");
 
